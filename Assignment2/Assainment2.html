@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf:8">
+        <title>Registration Form</title>
+        <style>
+            table, th, td, caption {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <caption> Pizza Shop 2.0 </caption>
+                 </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pizza Topping</td>
+                    <td>
+                        <input type="radio" name="supreme">
+                        <label for="supreme">Supreme</label> <br>
+
+                        <input type="radio" name="vegetarian">
+                        <label for="vegetarian">Vegetarian</label> <br>
+
+                        <input type="radio" name="hawaiian">
+                        <label for="hawaiian">Hawaiian</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pizza Sauce</td>
+                    <td>
+                        <select>
+                            <option>Tomato</option>
+                            <option>Chilly</option>
+                            <option>Ketchup</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Extras</td>
+                    <td>
+                        <input type="checkbox" name="extraCheese">
+                        <label for="extraCheese">Extra Cheese</label>
+
+                        <input type="checkbox" name="glutenFireBase">
+                        <label for="glutenFireBase">Gluten Fire Base</label>
+
+                        <input type="checkbox" name="hawaiian">
+                        <label for="hawaiian">Hawaiian</label>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Delivery Instructions:
+                        <textarea></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Send My Order">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
